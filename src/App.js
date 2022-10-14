@@ -1,5 +1,6 @@
 
 import './App.css';
+let logo = require('./images/logo.png');
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <h1 className='Text'>Welcome to my Website!</h1>
     <div className="App">
       <header className="App-header">
-        <img src={'logo.png'} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Work in Progress
         </p>

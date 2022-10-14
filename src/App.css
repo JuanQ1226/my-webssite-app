@@ -35,6 +35,7 @@
 
 .Text {
   background-color: rgb(204, 44, 78);
+  margin-top: auto;
 }
 
 @keyframes App-logo-spin {
