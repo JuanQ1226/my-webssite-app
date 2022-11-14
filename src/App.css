@@ -14,18 +14,22 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: bisque;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
-.App-link {
+.Git-link {
   color: #615fe2;
+}
+
+.Resume-Link {
+  color: coral;
 }
 
 .head{
