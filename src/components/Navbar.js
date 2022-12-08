@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../App.css"
+import './Navbar.css'
 
 
 function Navbar() {
@@ -10,7 +11,7 @@ function Navbar() {
                 <a className="navbar-brand">My Portafolio</a>
                 <div className="d-flex">
                 <button className="btn btn-primary" onClick={()=>window.open("https://drive.google.com/file/d/10e27_jaIorRLfuT2gAEbrlrkPae2AGYc/view?usp=sharing")}>My Resume</button>
-                <button className="btn btn-dark" onClick={()=>window.open("https://github.com/JuanQ1226")}>My GitHub</button>
+                <button className="btn btn-dark btm-custom" onClick={()=>window.open("https://github.com/JuanQ1226")}>My GitHub</button>
                 </div>
             </div>
         </nav>

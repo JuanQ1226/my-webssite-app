@@ -1,10 +1,9 @@
 
 import './App.css';
-import { TypeAnimation } from 'react-type-animation';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import AboutMe from './components/AboutMe';
-
+import Projects from './components/Projects';
 
 
 function App() {
@@ -14,6 +13,7 @@ function App() {
       <div className='col d-flex'>
         <div className='container'>
           <AboutMe></AboutMe>
+          <Projects></Projects>
         </div>
       </div>
 

@@ -5,7 +5,7 @@ import './AboutMe.css'
 function AboutMe() {
   return (
     <><div className="card text-bg-dark mb-3">
-      <div className="card-header">About Me</div>
+      <div className="card-header"><h5><b>About Me</b></h5></div>
       <div className="card-body">
         <p className="card-text">
           I'm currently erolled on a Computer Science and Engeneering bachelor's degree
@@ -16,7 +16,7 @@ function AboutMe() {
           productive experiences that I'll explain later.</p>
       </div>
     </div><div className="card text-bg-dark mb-3">
-        <div className="card-header">Acomplishments</div>
+        <div className="card-header"><h5><b>Acomplishments</b></h5></div>
         <div className="card-body">
           <div className="card-text">
             <ul>
