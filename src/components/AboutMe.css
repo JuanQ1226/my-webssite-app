@@ -1,0 +1,8 @@
+.card {
+    margin-top: 1rem;
+}
+
+.btn-custom {
+    position: static;
+    width: fit-content;
+}
